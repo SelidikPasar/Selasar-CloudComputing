@@ -8,7 +8,7 @@ const db_connection = mysql
     password: "", // DATABASE PASSWORD
   })
   .on("error", (err) => {
-    console.log("Failed to connect to Database - ", err);
+    console.log("Failed to connect to database - ", err);
   });
 
 module.exports = db_connection;

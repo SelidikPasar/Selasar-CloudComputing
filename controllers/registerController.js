@@ -18,7 +18,8 @@ exports.register = async(req,res,next) => {
 
         if (row.length > 0) {
             return res.status(201).json({
-                message: "The E-mail already in use",
+                error: "true",
+                message: "Email is already used",
             });
         }
 
@@ -32,7 +33,7 @@ exports.register = async(req,res,next) => {
 
         if (rows.affectedRows === 1) {
             return res.status(201).json({
-                message: "The user has been successfully inserted.",
+                message: "The user has been successfully created.",
             });
         }
         
