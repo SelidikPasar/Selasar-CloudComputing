@@ -1,0 +1,40 @@
+{
+    "market": 
+      [
+        {
+          "name": "Toko sembako Rizki",
+          "address": "Jl. Kebon Sirih Barat I Gg. 10 No.68, RT.4/RW.4",
+          "image": "https://i.postimg.cc/x1yBdJbJ/toko1.jpg",
+          "lat": "-6.18512478840801",
+          "long": "106.82871507619404"
+        },
+        {
+          "name": "Toko Sembako Madura Asmaul Husna",
+          "address": "Jl. Tanah Abang I, RT.8/RW.8, Petojo Sel., Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160",
+          "image": "https://i.postimg.cc/Gmxh1pLz/toko2.jpg",
+          "lat": "-6.171052828898423",
+          "long": "106.8198136235969"
+        },
+        {
+          "name": "Toko Sembako Resqie Medita",
+          "address": "Jl. Kp. Bali XXXII No.232, RT.7/RW.10, Kp. Bali, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10250",
+          "image": "https://i.postimg.cc/BnXNrjBf/toko3.jpg",
+          "lat": "-6.184782736682187",
+          "long": "106.82056971010316"
+        },
+        {
+          "name": "Toko Sembako Bunda RK (Rafa khalifa)",
+          "address": "Jl. Kota Bambu Utara II No.12, RT.8/RW.9, Kota Bambu Utara, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11420",
+          "image": "https://i.postimg.cc/rwxRRc8t/toko4.jpg",
+          "lat": "-6.183541151024088",
+          "long": " 106.80487433339572"
+        },
+        {
+          "name": "Toko Sembako Putra Rafael",
+          "address": "Jl. Pembangunan I No.14A, RW.1, Petojo Utara, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10130",
+          "image": "https://i.postimg.cc/ry9kmHXF/toko5.jpg",
+          "lat": "-6.161027790168393",
+          "long": "106.8172945966091"
+        }
+      ]
+}

@@ -7,21 +7,6 @@ const storage = new Storage();
 
 // Handler
 const getPrice = (req, res) => {
-    const jsonString = fs.readFileSync("./news.json");
-    const article = JSON.parse(jsonString);
-    res.send(article);
-    if(
-        !req.headers.authorization ||
-        !req.headers.authorization.startsWith('Bearer') ||
-        !req.headers.authorization.split(' ')[1]
-    ){
-        return res.status(422).json({
-            message: "Please provide the token",
-        });
-    }
-
-    const theToken = req.headers.authorization.split(' ')[1];
-    const decoded = jwt.verify(theToken, 'the-super-strong-secrect');
     console.log('Reading File');
             var archivo = storage.bucket('hargapangan_downloaded_data').file('harga_pangan.json').createReadStream();
             var buf = '';

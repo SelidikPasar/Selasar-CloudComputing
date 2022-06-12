@@ -2,6 +2,7 @@ const express = require('express');
 const userRoutes = require('./routes/userRoute');
 const newsRoutes = require('./routes/newsRoute');
 const priceRoutes = require('./routes/priceRoute');
+const marketRoutes = require('./routes/marketRoute');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -11,6 +12,7 @@ app.use(express.json());
 app.use("/",userRoutes);
 app.use("/articles",newsRoutes);
 app.use("/price",priceRoutes);
+app.use("/market",marketRoutes);
 
 
 // Handling Errors
